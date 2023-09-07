@@ -7,6 +7,12 @@
     scroll-behavior: smooth;
 
 }
+@media (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
+}
+
 header{
     background-color: gainsboro;
     width: 100%;
