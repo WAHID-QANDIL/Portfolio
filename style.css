@@ -1,11 +1,88 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-*{
+
+* {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+}
 
+@media (max-width: 768px) {
+    header {
+        padding: 10px 20px; /* Adjust padding for smaller screens */
+    }
+
+    .nav a {
+        padding: 0.9375em 1.1875em; /* Adjust padding for smaller screens */
+    }
+
+    section {
+        padding: 50px 20px; /* Adjust padding for smaller screens */
+    }
+
+    .main {
+        padding: 50px 20px; /* Adjust padding for smaller screens */
+    }
+
+    .main h2 {
+        font-size: 1.2em; /* Adjust font size for smaller screens */
+    }
+
+    .main h2 span {
+        font-size: 2ex; /* Adjust font size for smaller screens */
+    }
+
+    .main h3 {
+        font-size: 1.5em; /* Adjust font size for smaller screens */
+        margin-bottom: 20px; /* Adjust margin for smaller screens */
+    }
+
+    .main-button {
+        font-size: 1em; /* Adjust font size for smaller screens */
+        padding: 0.7em 1.5em; /* Adjust padding for smaller screens */
+    }
+
+    .icons a {
+        font-size: 1.5em; /* Adjust font size for smaller screens */
+    }
+
+    .cards h2, .titel {
+        font-size: 1.8em; /* Adjust font size for smaller screens */
+        margin-bottom: 20px; /* Adjust margin for smaller screens */
+    }
+
+    .card {
+        width: 100%; /* Make cards full width on smaller screens */
+        margin: 15px 0; /* Adjust margin for smaller screens */
+    }
+
+    .card-icons {
+        font-size: 5em; /* Adjust font size for smaller screens */
+    }
+
+    .info h3 {
+        font-size: 1.2em; /* Adjust font size for smaller screens */
+    }
+
+    .cert-card {
+        width: 100%; /* Make certificate cards full width on smaller screens */
+        margin: 10px 0; /* Adjust margin for smaller screens */
+    }
+
+    .Certificates-imge img {
+        width: 100%; /* Make certificate images full width on smaller screens */
+    }
+
+    .Card-info {
+        flex-direction: column; /* Stack certificate info vertically on smaller screens */
+        text-align: center; /* Center text on smaller screens */
+    }
+
+    .footer-titel h2 {
+        font-size: 2em; /* Adjust font size for smaller screens */
+        margin-bottom: 30px; /* Adjust margin for smaller screens */
+    }
 }
 @media (max-width: 768px) {
   .sidebar {
