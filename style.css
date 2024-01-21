@@ -8,83 +8,63 @@
     scroll-behavior: smooth;
 }
 
-@media (max-width: 768px) {
-    header {
-        padding: 10px 20px;
-    }
+body {
+    line-height: 1.6;
+}
 
+header {
+    background-color: gainsboro;
+    width: 100%;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: fixed;
+}
+
+.logo {
+    text-decoration: none;
+    color: #3a6cf4;
+    font-weight: 700;
+    font-size: 1.7em;
+    text-transform: uppercase;
+}
+
+.nav a {
+    color: white;
+    font-size: 1em;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 0.7em 1.5em;
+    transition: 0.5s ease;
+    border-radius: 30px;
+    background-color: #3a6cf4;
+}
+
+@media screen and (max-width: 768px) {
     .nav a {
-        padding: 0.9375em 1.1875em;
-    }
-
-    section {
-        padding: 50px 20px;
-    }
-
-    .main {
-        padding: 50px 20px;
-    }
-
-    .main h2 {
-        font-size: 1.2em;
-    }
-
-    .main h2 span {
-        font-size: 2ex;
-    }
-
-    .main h3 {
-        font-size: 1.5em;
-        margin-bottom: 20px;
-    }
-
-    .main-button {
-        font-size: 1em;
-        padding: 0.7em 1.5em;
-    }
-
-    .icons a {
-        font-size: 1.5em;
-    }
-
-    .cards h2, .titel {
-        font-size: 1.8em;
-        margin-bottom: 20px;
-    }
-
-    .card {
-        width: 100%;
-        margin: 15px 0;
-    }
-
-    .card-icons {
-        font-size: 5em;
-    }
-
-    .info h3 {
-        font-size: 1.2em;
-    }
-
-    .cert-card {
-        width: 100%;
-        margin: 10px 0;
-    }
-
-    .Certificates-imge img {
-        width: 100%;
-    }
-
-    .Card-info {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .footer-titel h2 {
-        font-size: 2em;
-        margin-bottom: 30px;
+        padding: 0.7em 1em;
     }
 }
 
+.nav a:hover {
+    color: blueviolet;
+    transform: scale(1.1);
+}
+
+/* Apply similar responsive adjustments for other sections as needed */
+
+/* Example adjustment for the main section */
+.main {
+    padding: 50px;
+}
+
+@media screen and (max-width: 768px) {
+    .main {
+        padding: 20px;
+    }
+}
 /*
 @media (max-width: 768px) {
   .sidebar {
