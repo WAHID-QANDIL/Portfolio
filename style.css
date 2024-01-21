@@ -230,7 +230,7 @@ header {
 
 
 
-/*
+
 
 @media (max-width: 768px) {
   .sidebar {
@@ -331,6 +331,8 @@ section{
     transition: 0.7s ease;
 
 }
+
+/*
 .main-button:hover{
     color: #10147e;
     transform: scale(1.1);
