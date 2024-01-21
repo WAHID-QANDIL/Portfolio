@@ -10,80 +10,81 @@
 
 @media (max-width: 768px) {
     header {
-        padding: 10px 20px; /* Adjust padding for smaller screens */
+        padding: 10px 20px;
     }
 
     .nav a {
-        padding: 0.9375em 1.1875em; /* Adjust padding for smaller screens */
+        padding: 0.9375em 1.1875em;
     }
 
     section {
-        padding: 50px 20px; /* Adjust padding for smaller screens */
+        padding: 50px 20px;
     }
 
     .main {
-        padding: 50px 20px; /* Adjust padding for smaller screens */
+        padding: 50px 20px;
     }
 
     .main h2 {
-        font-size: 1.2em; /* Adjust font size for smaller screens */
+        font-size: 1.2em;
     }
 
     .main h2 span {
-        font-size: 2ex; /* Adjust font size for smaller screens */
+        font-size: 2ex;
     }
 
     .main h3 {
-        font-size: 1.5em; /* Adjust font size for smaller screens */
-        margin-bottom: 20px; /* Adjust margin for smaller screens */
+        font-size: 1.5em;
+        margin-bottom: 20px;
     }
 
     .main-button {
-        font-size: 1em; /* Adjust font size for smaller screens */
-        padding: 0.7em 1.5em; /* Adjust padding for smaller screens */
+        font-size: 1em;
+        padding: 0.7em 1.5em;
     }
 
     .icons a {
-        font-size: 1.5em; /* Adjust font size for smaller screens */
+        font-size: 1.5em;
     }
 
     .cards h2, .titel {
-        font-size: 1.8em; /* Adjust font size for smaller screens */
-        margin-bottom: 20px; /* Adjust margin for smaller screens */
+        font-size: 1.8em;
+        margin-bottom: 20px;
     }
 
     .card {
-        width: 100%; /* Make cards full width on smaller screens */
-        margin: 15px 0; /* Adjust margin for smaller screens */
+        width: 100%;
+        margin: 15px 0;
     }
 
     .card-icons {
-        font-size: 5em; /* Adjust font size for smaller screens */
+        font-size: 5em;
     }
 
     .info h3 {
-        font-size: 1.2em; /* Adjust font size for smaller screens */
+        font-size: 1.2em;
     }
 
     .cert-card {
-        width: 100%; /* Make certificate cards full width on smaller screens */
-        margin: 10px 0; /* Adjust margin for smaller screens */
+        width: 100%;
+        margin: 10px 0;
     }
 
     .Certificates-imge img {
-        width: 100%; /* Make certificate images full width on smaller screens */
+        width: 100%;
     }
 
     .Card-info {
-        flex-direction: column; /* Stack certificate info vertically on smaller screens */
-        text-align: center; /* Center text on smaller screens */
+        flex-direction: column;
+        text-align: center;
     }
 
     .footer-titel h2 {
-        font-size: 2em; /* Adjust font size for smaller screens */
-        margin-bottom: 30px; /* Adjust margin for smaller screens */
+        font-size: 2em;
+        margin-bottom: 30px;
     }
 }
+
 /*
 @media (max-width: 768px) {
   .sidebar {
