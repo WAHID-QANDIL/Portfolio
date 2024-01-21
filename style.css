@@ -229,6 +229,9 @@ header {
 }
 
 
+
+/*
+
 @media (max-width: 768px) {
   .sidebar {
     display: none;
@@ -447,4 +450,4 @@ section{
     border-radius: 15px;
     box-shadow: 0 5px 25px rgba(1 1 1 /25%);
 }
-
+*/
